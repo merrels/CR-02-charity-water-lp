@@ -90,17 +90,17 @@ button {
 .cta-button::before {
   content: '';
   position: absolute;
-  top: 0;
+  bottom: 0;            /* Start from the bottom */
   left: 0;
-  width: 0%;
-  height: 100%;
+  width: 100%;
+  height: 0%;           /* Initial height */
   background-color: #172136;
   z-index: 0;
-  transition: width 0.4s ease;
+  transition: height 0.4s ease;
 }
 
 .cta-button:hover::before {
-  width: 100%;
+  height: 100%;         /* Animate upward */
 }
 
 .cta-button span {
@@ -159,17 +159,17 @@ button {
 .impact-button::before {
   content: '';
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  width: 0%;
-  height: 100%;
+  width: 100%;
+  height: 0%;
   background-color: #172136;
   z-index: 0;
-  transition: width 0.4s ease;
+  transition: height 0.4s ease;
 }
 
 .impact-button:hover::before {
-width: 100%;
+  height: 100%;
 }
 
 .impact-button span {
