@@ -64,7 +64,7 @@ button {
   font-family: 'Proxima Nova', Arial, serif; /* Use Proxima Nova for buttons */
   font-weight: bold; /* Make button text bold */
   font-size: 16px;
-  background-color: #ffc802;
+  background-color: #ffc90b;
   color: black;
   padding: 20px 40px;
   border: none;
@@ -201,7 +201,7 @@ footer {
 
 /* Set all link text color to Jerry Can Yellow */
 a {
-  color: #FFC907;
+  color: #ffc90b;
   text-decoration: none; /* Remove underline for a cleaner look */
 }
 
